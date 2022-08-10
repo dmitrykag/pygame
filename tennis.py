@@ -29,18 +29,6 @@ class Paddle:
         self.rect = pygame.Rect(0, HEIGHT/2, 10, 60)
         self.rect.center = (self.rect.width/2, HEIGHT/2) 
 
-    def update(self):
-        pass
-        # if self.rect.top < 0 or self.rect.bottom > HEIGHT:
-        #     self.speed[1] *= -1
-        # elif self.rect.left < 0 or self.rect.right > WIDTH:
-        #     self.speed[0] *= -1
-        # self.move()
-
-    # def move(self):
-    #     self.rect = self.rect.move(self.speed)
-
-
 def main():
     clock = pygame.time.Clock()
     pygame.init()
